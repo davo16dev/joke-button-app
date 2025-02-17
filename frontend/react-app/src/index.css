@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: radial-gradient(at center, #6B3A9C, #B962BE);
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+}
+
+.text-above {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.jump {
+  position: relative;
+  width: 140px;
+  height: 70px;
+  background: #FFC107;
+  border: 4px solid #000;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eyes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10px;
+}
+
+.eye {
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.pupil {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: "Courier New", monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  border-right: 4px solid white;
+  padding-right: 5px;
+  visibility: hidden;
+}
+
+.moveAndRotate {
+  animation: moveAndRotate 0.5s 1;
+}
+
+@keyframes moveAndRotate {
+  0% { transform: translateY(0) rotate(0deg) scale(1.0); }
+  50% { transform: translateY(-30px) rotate(0deg) scale(1.0); }
+  75% { transform: translateY(-30px) rotate(720deg) scale(2.0); }
+  100% { transform: translateY(0) rotate(720deg) scale(1.0); }
+}
