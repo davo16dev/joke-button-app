@@ -11,9 +11,7 @@ const useJokes = () => {
     setError(null);
 
     try {
-      const response = await fetch(
-        "https://v2.jokeapi.dev/joke/Programming?type=single"
-      );
+      const response = await fetch("http://localhost:8080/joke");
       if (!response.ok) {
         throw new Error("Failed to fetch joke");
       }
