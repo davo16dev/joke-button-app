@@ -24,7 +24,7 @@ Ensure you have the following installed:
 #### Installation Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/joke-button-app.git
+   git clone https://github.com/davo16dev/joke-button-app.git
    cd joke-button-app
    ```
 2. Build and run the app using Docker:
@@ -63,7 +63,7 @@ Asegúrate de tener instalado lo siguiente:
 #### Pasos de Instalación
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/your-repo/joke-button-app.git
+   git clone https://github.com/davo16dev/joke-button-app.git
    cd joke-button-app
    ```
 2. Construye y ejecuta la aplicación con Docker:
