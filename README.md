@@ -37,6 +37,14 @@ Ensure you have the following installed:
    http://localhost:8080
    ```
 
+## Disclaimer
+
+This project fetches jokes from the [JokeAPI](https://jokeapi.dev/).  
+The jokes are selected randomly and filtered to display only programming-related jokes.  
+
+While the content is filtered for this context, any issues or concerns regarding the jokes displayed are the responsibility of the source API, as this project simply consumes the provided data without modifying its content.  
+
+For more information about the API and how it works, visit [JokeAPI](https://jokeapi.dev/).
 ---
 
 ## 📌 Descripción (Español)
@@ -76,6 +84,14 @@ Asegúrate de tener instalado lo siguiente:
    http://localhost:8080
    ```
 
+## Disclaimer
+
+Este proyecto obtiene los chistes desde la API de [JokeAPI](https://jokeapi.dev/).  
+Los chistes se seleccionan al azar y están filtrados para mostrar únicamente chistes de programación.  
+
+Si bien el contenido ha sido filtrado para este contexto, cualquier problema o inconveniente con los chistes mostrados es responsabilidad de la API fuente, ya que el proyecto simplemente consume la información proporcionada sin realizar modificaciones en su contenido.  
+
+Para más información sobre la API y su funcionamiento, puedes visitar [JokeAPI](https://jokeapi.dev/).
 ---
 
 ## 📜 License
