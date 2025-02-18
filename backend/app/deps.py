@@ -1,5 +1,5 @@
-from app import services
-from app.schemas import JokeResponse
+import services
+from schemas import JokeResponse
 
 
 def get_joke_api_client() -> JokeResponse:

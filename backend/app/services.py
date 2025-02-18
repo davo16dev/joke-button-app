@@ -1,7 +1,7 @@
 import requests
 from typing import Optional
 
-from app.config import JOKE_API_URL
+from config import JOKE_API_URL
 
 
 def get_random_joke_from_joke_api() -> Optional[str]:
