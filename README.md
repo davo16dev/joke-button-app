@@ -25,11 +25,15 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```sh
    git clone https://github.com/davo16dev/joke-button-app.git
+   ```
+   ```sh
    cd joke-button-app
    ```
 2. Build and run the app using Docker:
    ```sh
    docker buildx build --platform linux/amd64 -t joke-button-app .
+   ```
+   ```sh
    docker run -p 8080:8080 joke-button-app
    ```
 3. Access the app at:
@@ -72,11 +76,15 @@ Asegúrate de tener instalado lo siguiente:
 1. Clona el repositorio:
    ```sh
    git clone https://github.com/davo16dev/joke-button-app.git
+   ```
+   ```sh
    cd joke-button-app
    ```
 2. Construye y ejecuta la aplicación con Docker:
    ```sh
    docker buildx build --platform linux/amd64 -t joke-button-app .
+   ```
+   ```sh
    docker run -p 8080:8080 joke-button-app
    ```
 3. Accede a la aplicación en:
