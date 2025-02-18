@@ -2,8 +2,8 @@ import requests
 from fastapi import APIRouter, HTTPException, status
 from typing import Any
 
-from app.deps import get_joke_api_client
-from app.schemas import JokeResponse
+from deps import get_joke_api_client
+from schemas import JokeResponse
 
 
 router = APIRouter()

@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
-from app.api import router
+from api import router
 
 app = FastAPI()
 
@@ -15,3 +16,5 @@ app.add_middleware(
     allow_methods=["GET"],
     allow_headers=["*"],
 )
+
+app.mount("/", StaticFiles(directory="static", html=True), name="static")
